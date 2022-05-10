@@ -14,7 +14,7 @@ Module Conexion
             conexion.Open()
             MsgBox("Conectado")
         Catch ex As Exception
-            MsgBox("No se pudo conectar" + ex.ToString)
+            MsgBox("No se pudo conectar hola isai" + ex.ToString)
         End Try
     End Sub
 
